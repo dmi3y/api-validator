@@ -12,6 +12,10 @@
     "glob": "7.0.3",
     "tv4": "1.2.7"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dmi3y/api-validator.git"
+  }
   "devDependencies": {
     "tape": "4.5.1"
   }
