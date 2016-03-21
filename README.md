@@ -52,7 +52,7 @@ See tests for better examples.
 
 This module is a wrapper over the [tv4](https://github.com/geraintluff/tv4) JsonSchema validator. The result returned from the call is direct pipeline from [`tv4.validateMultiple`](https://github.com/geraintluff/tv4#usage-3-multiple-errors) method.
 
-There is options has you can pass for initiation:
+There is options you can pass for initiation:
 
 - `base` root folder from which schemas will be searched up, default to `cwd`.
 - `globPattern` the pattern used to search schemas, default to `/**/*`.
