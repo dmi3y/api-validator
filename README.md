@@ -1,8 +1,12 @@
-# JsonSchema API validator <img src="https://circleci.com/gh/dmi3y/api-validator.png?circle-token=:c9b904200c9df88f84e2dd80e9a44d5e16505f0e" />
+# JsonSchema API validator <img src="https://circleci.com/gh/dmi3y/json-api-validator.png?circle-token=:c9b904200c9df88f84e2dd80e9a44d5e16505f0e" />
 
 > Slightly opinionated view on [JsonSchema](http://json-schema.org/) API validation.
 
-## Proposed usecase
+### Install
+
+> json-api-validator
+
+### Proposed usecase
 
 > But not limited.
 
@@ -48,7 +52,7 @@ var result = validator(jsonToValidate, 'response/pashA/get.json')
 
 See tests for better examples.
 
-## API
+### API
 
 This module is a wrapper over the [tv4](https://github.com/geraintluff/tv4) JsonSchema validator. The result returned from the call is direct pipeline from [`tv4.validateMultiple`](https://github.com/geraintluff/tv4#usage-3-multiple-errors) method.
 
@@ -59,6 +63,6 @@ There is options you can pass for initiation:
 - `formats` hash of the custom formats for [`tv4.addFormat`](https://github.com/geraintluff/tv4#addformatformat-validationfunction) multiple form.
 
 
-## Notes
+### Notes
 
 As of now the all schemas are loaded in the memory, no matter will they be used or not. The lazy loading are considerably on the road map.

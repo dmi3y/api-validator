@@ -1,8 +1,8 @@
 {
-  "name": "api-validator",
+  "name": "json-api-validator",
   "version": "1.0.0",
   "author": "Dmitrii Lapshukov <lapshukov@gmail.com>",
-  "description": "Validates API JSON agains json schemas.",
+  "description": "Validates API JSON agains JsonSchema.",
   "main": "index.js",
   "scripts": {
     "test": "tape tests/*Test.js"
@@ -20,6 +20,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:dmi3y/api-validator.git"
+    "url": "git@github.com:dmi3y/json-api-validator.git"
   }
 }
