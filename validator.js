@@ -11,7 +11,7 @@ module.exports = function (config) {
   var base = config.base || './'
   var globPattern = config.globPattern || '/**/*'
   var schemaPaths = glob.sync(base + globPattern)
-  debugger
+
   schemaPaths.forEach(function (el) {
     var stat = fs.statSync(el)
 
