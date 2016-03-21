@@ -1,0 +1,18 @@
+{
+  "name": "api-validator",
+  "version": "1.0.0",
+  "description": "Validates API JSON agains json schemas.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape tests/*Test.js"
+  },
+  "author": "Dmitrii Lapshukov <lapshukov@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "glob": "7.0.3",
+    "tv4": "1.2.7"
+  },
+  "devDependencies": {
+    "tape": "4.5.1"
+  }
+}

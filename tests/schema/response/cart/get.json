@@ -1,0 +1,16 @@
+{
+  "title": "Combine person and product schemas using $ref",
+  "type": "object",
+  "properties": {
+    "customer": {
+      "$ref": "/response/customer/get.json"
+    },
+    "goods": {
+      "type": "array",
+      "items": {
+        "$ref": "/response/product/get.json"
+      }
+    }
+  },
+  "required": ["customer", "goods"]
+}
