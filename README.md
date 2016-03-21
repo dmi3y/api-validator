@@ -1,4 +1,4 @@
-# JsonSchema API validator
+# JsonSchema API validator <img src="https://circleci.com/gh/dmi3y/api-validator.png?circle-token=:c9b904200c9df88f84e2dd80e9a44d5e16505f0e" />
 
 > Slightly opinionated view on [JsonSchema](http://json-schema.org/) API validation.
 
