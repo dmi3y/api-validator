@@ -4,7 +4,7 @@
 
 ## Proposed usecase
 
-> But not limited
+> But not limited.
 
 Let's say there is folder structure of json schemas.
 
@@ -31,9 +31,9 @@ api +
                           .... etc ....
 ````
 
-This will be possible setup for validator
+This will be possible setup for validator.
 
-api/validator.js
+`api/validator.js`
 
 ````js
 var validator = require('api-validator')({
