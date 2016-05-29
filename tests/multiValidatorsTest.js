@@ -27,9 +27,9 @@ test('no shared state', function (t) {
     firstName: 'Joe',
     lastName: 'Doe',
     age: 35
-  }, '/get_copy.json')
+  }, '/get_does_not_exists.json')
   t.equal(case2.valid, null, 'should be return valid null')
-  t.equal(case2.code, 404, 'should have staus code 404, not found')
+  t.equal(case2.errors[0].code, 404, 'should have staus code 404, not found')
 
   var case3 = validateProduct({
     id: 1,
