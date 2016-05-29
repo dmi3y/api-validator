@@ -1,6 +1,6 @@
 {
   "name": "json-api-validator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Dmitrii Lapshukov <lapshukov@gmail.com>",
   "description": "Validates API JSON agains JsonSchema.",
   "main": "index.js",
