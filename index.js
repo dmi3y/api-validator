@@ -12,8 +12,10 @@ module.exports = function (config) {
       var result = myValidator.tv4.validateMultiple(json, schema)
     } else {
       result = {
-        error: `Schema ${path}, is not exists.`,
-        code: 404,
+        errors: [{
+          message: `Schema ${path}, does not exists.`,
+          code: 404
+        }],
         valid: null
       }
     }
